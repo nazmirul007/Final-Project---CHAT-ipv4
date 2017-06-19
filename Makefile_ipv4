@@ -1,0 +1,7 @@
+all: 
+	gcc Chat_tcpserver_ipv4.c -o Chat_tcpserver_ipv4.out -lpthread
+	gcc Chat_tcpclient_ipv4.c -o Chat_tcpclient_ipv4.out -lpthread
+
+clean:
+	rm Chat_tcpserver_ipv4.out
+	rm Chat_tcpclient_ipv4.out
